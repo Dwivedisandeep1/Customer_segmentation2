@@ -140,7 +140,7 @@ data1['Recency'].unique()
 
 
  
-Recency = t.selectbox('Recency' , data1['Recency'].sort_values().unique())
+Recency = st.selectbox('Recency' , data1['Recency'].sort_values().unique())
 
 
 # In[34]:
