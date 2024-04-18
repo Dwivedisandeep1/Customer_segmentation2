@@ -248,7 +248,7 @@ Total_Accepted = st.selectbox('Total_Accepted' , data1['Total_Accepted'].sort_va
 # In[68]:
 
 
-Total_Products = st.number_input('Total Products :  Maximum Values 2000',min_value=0,max_value=2000)
+Total_Products = st.number_input('Total Products',min_value=0,max_value=2000)
 
 
 
