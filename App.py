@@ -139,7 +139,8 @@ data1['Recency'].unique()
 # In[31]:
 
 
-Recency = st.slider('Recency', min_value=0, max_value=5)
+ 
+Recency = t.selectbox('Recency' , data1['Recency'].sort_values().unique())
 
 
 # In[34]:
