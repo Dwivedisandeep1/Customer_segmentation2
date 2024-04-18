@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 # In[17]:
 
 
-data=pd.read_excel(r'D:\Customer_segmentation/marketing_campaign.xlsx',engine='openpyxl')
+data=pd.read_excel(r'marketing_campaign.xlsx',engine='openpyxl')
 
 
 # In[18]:
