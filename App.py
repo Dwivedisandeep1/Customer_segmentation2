@@ -251,6 +251,7 @@ Total_Accepted = st.selectbox('Total_Accepted' , data1['Total_Accepted'].sort_va
 Total_Products = st.number_input('Total Products :  Maximum Values 2000',min_value=0,max_value=2000)
 
 
+
 # In[71]:
 
 
@@ -267,7 +268,7 @@ data1['total_purchases'].max()
 
 
 total_purchases = st.number_input('Total purchases ',min_value=0,max_value=60)
-st.write('Total Purchases Min Value:0 , Max Value : 2000 ')
+
 
 
 # In[49]:
